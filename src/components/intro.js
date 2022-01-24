@@ -9,17 +9,17 @@ export default function Intro() {
       <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
         A statically generated blog example using{' '}
         <a
-          href="https://www.gatsbyjs.com/"
+          href="https://t.me/hackerbd1"
           className="underline hover:text-success duration-200 transition-colors"
         >
-          Gatsby
+          Hackerbd
         </a>{' '}
         and{' '}
         <a
-          href="https://www.datocms.com/"
+          href="https://www.misterxman.com/"
           className="underline hover:text-success duration-200 transition-colors"
         >
-          DatoCMS
+          Mr.X
         </a>
         .
       </h4>
