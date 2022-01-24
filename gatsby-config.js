@@ -26,7 +26,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-gitalk`,
       options: {
-        config: gitalkConfig
+        config: gitalkOpt
       }
     },
   ]
