@@ -23,3 +23,17 @@ export default function MoreStories({ posts }) {
     </section>
   )
 }
+import Gitalk from 'gatsby-plugin-gitalk'
+import '@suziwen/gitalk/dist/gitalk.css'
+
+const PostTemplate = () => {
+  let gitalkConfig = {
+    id: post.slug || post.id,
+    title: post.title,
+  }
+  return (
+     <Gitalk options={gitalkConfig}/>
+  )
+}
+
+export default PostTemplate
