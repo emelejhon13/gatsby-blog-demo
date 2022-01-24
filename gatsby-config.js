@@ -20,3 +20,14 @@ module.exports = {
     `gatsby-transformer-sharp`,
   ],
 };
+// gatsby-config.js
+module.exports = {
+  plugins: [
+    {
+      resolve: `gatsby-plugin-gitalk`,
+      options: {
+        config: gitalkConfig
+      }
+    },
+  ]
+}
